@@ -133,9 +133,16 @@ export default function Home() {
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-5 md:px-8">
             <Link
               href="/"
-              className="font-serif text-xl tracking-[0.08em] text-white md:text-2xl"
+              className="relative block h-9 max-w-[min(280px,70vw)] shrink-0 md:h-11 md:max-w-[320px]"
             >
-              Soul of Samui
+              <Image
+                src="/logo.png"
+                alt="Soul of Samui"
+                fill
+                priority
+                className="object-contain object-left"
+                sizes="(max-width: 768px) 70vw, 320px"
+              />
             </Link>
 
             <NavLinks className="hidden items-center gap-8 md:flex" />
@@ -411,9 +418,15 @@ export default function Home() {
 
       <footer className="border-t border-charcoal/10 bg-[#faf9f7] py-12">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-5 text-center md:flex-row md:text-left md:px-8">
-          <p className="font-serif text-lg tracking-[0.06em] text-charcoal">
-            Soul of Samui
-          </p>
+          <div className="relative h-9 w-44 shrink-0 md:h-10 md:w-52">
+            <Image
+              src="/logo.png"
+              alt="Soul of Samui"
+              fill
+              className="object-contain object-center md:object-left"
+              sizes="208px"
+            />
+          </div>
           <p className="text-xs tracking-[0.18em] text-charcoal/45">
             © {new Date().getFullYear()} Soul of Samui Gallery. Crafted on Koh Samui.
           </p>
