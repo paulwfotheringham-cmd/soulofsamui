@@ -133,7 +133,7 @@ export default function Home() {
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-5 md:px-8">
             <Link
               href="/"
-              className="relative block h-9 max-w-[min(280px,70vw)] shrink-0 md:h-11 md:max-w-[320px]"
+              className="relative block h-9 max-w-[min(280px,70vw)] shrink-0 overflow-hidden rounded-sm shadow-[0_4px_28px_rgba(0,0,0,0.35)] ring-1 ring-white/25 md:h-11 md:max-w-[320px]"
             >
               <Image
                 src="/logo.png"
