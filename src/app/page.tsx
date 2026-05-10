@@ -133,15 +133,15 @@ export default function Home() {
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-5 md:px-8">
             <Link
               href="/"
-              className="relative block h-9 max-w-[min(280px,70vw)] shrink-0 overflow-hidden rounded-sm shadow-[0_4px_28px_rgba(0,0,0,0.35)] ring-1 ring-white/25 md:h-11 md:max-w-[320px]"
+              className="inline-flex shrink-0 overflow-hidden rounded-sm shadow-[0_4px_28px_rgba(0,0,0,0.35)] ring-1 ring-white/25"
             >
               <Image
                 src="/logo.png"
                 alt="Soul of Samui"
-                fill
+                width={360}
+                height={90}
                 priority
-                className="object-contain object-left"
-                sizes="(max-width: 768px) 70vw, 320px"
+                className="h-9 w-auto max-w-[min(280px,70vw)] md:h-11 md:max-w-[320px]"
               />
             </Link>
 
@@ -418,15 +418,15 @@ export default function Home() {
 
       <footer className="border-t border-charcoal/10 bg-[#faf9f7] py-12">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-5 text-center md:flex-row md:text-left md:px-8">
-          <div className="relative h-9 w-44 shrink-0 md:h-10 md:w-52">
+          <Link href="/" className="inline-flex shrink-0">
             <Image
               src="/logo.png"
               alt="Soul of Samui"
-              fill
-              className="object-contain object-center md:object-left"
-              sizes="208px"
+              width={280}
+              height={70}
+              className="h-8 w-auto md:h-9"
             />
-          </div>
+          </Link>
           <p className="text-xs tracking-[0.18em] text-charcoal/45">
             © {new Date().getFullYear()} Soul of Samui Gallery. Crafted on Koh Samui.
           </p>
