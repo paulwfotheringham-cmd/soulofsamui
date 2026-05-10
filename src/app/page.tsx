@@ -274,7 +274,7 @@ export default function Home() {
                 href="#contact"
                 className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_16px_48px_-24px_rgba(0,0,0,0.35)] ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-[0_28px_64px_-28px_rgba(0,0,0,0.45)]"
               >
-                <div className="relative aspect-3/4 overflow-hidden">
+                <div className="relative aspect-[3/4] overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.alt}
@@ -322,7 +322,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 md:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
             <div className="grid gap-6 sm:grid-cols-2">
-              <div className="relative aspect-4/5 overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:translate-y-6">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:translate-y-6">
                 <Image
                   src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=900&q=80"
                   alt="Warm gallery interior with framed paintings"
@@ -331,7 +331,7 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="relative aspect-4/5 overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:-translate-y-4">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:-translate-y-4">
                 <Image
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5de?auto=format&fit=crop&w=900&q=80"
                   alt="Portrait of the artist"
