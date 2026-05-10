@@ -8,8 +8,8 @@ const collections = [
   {
     title: "Spiritual Life",
     image:
-      "https://images.unsplash.com/photo-1528360983277-fbfda6f7d58e?auto=format&fit=crop&w=900&q=80",
-    alt: "Golden Buddha statue in soft light",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=900&q=80",
+    alt: "Temple architecture in warm evening light",
   },
   {
     title: "People of Samui",
@@ -32,8 +32,8 @@ const collections = [
   {
     title: "Landscapes",
     image:
-      "https://images.unsplash.com/photo-1470071459604-3b96ec15a0be?auto=format&fit=crop&w=900&q=80",
-    alt: "Misty tropical hills and sea",
+      "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=900&q=80",
+    alt: "Tropical islands and sea from above",
   },
 ] as const;
 
@@ -324,8 +324,8 @@ export default function Home() {
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:translate-y-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=900&q=80"
-                  alt="Warm gallery interior with framed paintings"
+                  src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=900&q=80"
+                  alt="Bright gallery wall with framed artwork"
                   fill
                   sizes="(max-width: 1024px) 50vw, 40vw"
                   className="object-cover"
@@ -333,7 +333,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[0_24px_70px_-30px_rgba(0,0,0,0.45)] sm:-translate-y-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5de?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
                   alt="Portrait of the artist"
                   fill
                   sizes="(max-width: 1024px) 50vw, 40vw"
