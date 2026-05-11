@@ -131,17 +131,14 @@ export default function Home() {
 
         <header className="relative z-20 border-b border-white/10 backdrop-blur-[2px]">
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-5 md:px-8">
-            <Link
-              href="/"
-              className="inline-flex shrink-0 overflow-hidden rounded-sm shadow-[0_4px_28px_rgba(0,0,0,0.35)] ring-1 ring-white/25"
-            >
+            <Link href="/" className="inline-flex shrink-0">
               <Image
                 src="/logo.png"
                 alt="Soul of Samui"
-                width={360}
-                height={90}
+                width={720}
+                height={160}
                 priority
-                className="h-9 w-auto max-w-[min(280px,70vw)] md:h-11 md:max-w-[320px]"
+                className="h-10 w-auto max-w-[min(300px,78vw)] md:h-12 md:max-w-[380px]"
               />
             </Link>
 
