@@ -138,7 +138,7 @@ export default function Home() {
                 width={720}
                 height={160}
                 priority
-                className="h-10 w-auto max-w-[min(300px,78vw)] md:h-12 md:max-w-[380px]"
+                className="h-10 w-auto max-w-[min(300px,78vw)] mix-blend-screen md:h-12 md:max-w-[380px]"
               />
             </Link>
 
